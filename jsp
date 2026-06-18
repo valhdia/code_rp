@@ -1,0 +1,177 @@
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+  /* --- COULEURS GÉNÉRALES --- */
+
+{
+  --neutralDarker:	var(--perso3);
+  --contrast:    	var(--perso1);
+}
+
+  /* --- COULEURS DE ROMEO --- */
+
+[data-color-scheme="light"] romyy {
+   color-scheme: light;
+  --perso1:       #DEBC34;
+  --perso2:   #B59721;
+  --perso3:    #977C0E;
+}
+
+[data-color-scheme="dark"] romyy {
+   color-scheme: dark;
+  --perso1:       #DEBC34;
+  --perso2:   #F7D54E;
+  --perso3:    #EED573;
+}
+
+  /* --- COULEURS DE HASNA --- */
+
+[data-color-scheme="light"] hasnaa {
+   color-scheme: light;
+  --perso1:       #863535;
+  --perso2:   #8B1C1C;
+  --perso3:    #681010;
+}
+
+[data-color-scheme="dark"] hasnaa {
+   color-scheme: dark;
+  --perso1:       #8B1C1C;
+  --perso2:   #863535;
+  --perso3:    #AA3535;
+}
+
+
+  /* --- COULEURS DE KAYODE --- */
+
+[data-color-scheme="light"] kayy {
+   color-scheme: light;
+  --perso1:       #98421f;
+  --perso2:   #773318;
+  --perso3:    #612D18;
+}
+
+[data-color-scheme="dark"] kayy {
+   color-scheme: dark;
+  --perso1:       #98421f;
+  --perso2:   #AA522F;
+  --perso3:    #B36444;
+}
+
+  /* --- COULEURS DE ENID --- */
+
+[data-color-scheme="light"] enidd {
+   color-scheme: light;
+  --perso1:       #D10050;
+  --perso2:   #AC0042;
+  --perso3:    #8D0036;
+}
+
+[data-color-scheme="dark"] enidd {
+   color-scheme: dark;
+  --perso1:       #D10050;
+  --perso2:   #D1145C;
+  --perso3:    #CA2765;
+}
+
+  /* --- COULEURS DE VAI --- */
+
+[data-color-scheme="light"] vaii {
+   color-scheme: light;
+  --perso1:       #cc92c2;
+  --perso2:   #6d23b6;
+  --perso3:    #944bbb;
+}
+
+[data-color-scheme="dark"] vaii {
+   color-scheme: dark;
+  --perso1:       #944bbb;
+  --perso2:   #aa7bc3;
+  --perso3:    #cc92c2;
+}
+
+  /* --- COULEURS DE PRIYA --- */
+
+[data-color-scheme="light"] prii {
+   color-scheme: light;
+  --perso1:       #1A759F;
+  --perso2:   #005278;
+  --perso3:    #066961;
+}
+
+[data-color-scheme="dark"] prii {
+   color-scheme: dark;
+  --perso1:       #1A759F;
+  --perso2:   #1AAAED;
+  --perso3:    #12BAAC;
+}
+
+  /* --- BALISES --- */
+
+bb { 
+color: var(--perso1);
+font-weight: bold;
+}
+
+ii {
+color: var(--perso2);
+font-style: italic;} 
+
+ui {
+text-decoration: underline;
+text-decoration-color: var(--perso3);
+text-decoration-thickness: 2px;
+} 
+
+  /* --- ÉLÉMENTS --- */
+
+.cadre_valh { 
+width: 540px; 
+padding: 25px; 
+background-color: var(--neutralDark);
+border-radius:10px;
+} 
+
+.titre_valh { 
+width: 480px;
+text-align: center;
+font-size:26px; 
+font-family: Italiana;
+border-bottom: 3px solid #98421f;
+padding-bottom: 2px;
+text-transform: uppercase; 
+font-weight: 700; 
+
+} 
+
+.soustitre_valh {
+text-align: center; 
+font-size: 13px; 
+font-family: Kaisei HarunoUmi; 
+letter-spacing:2px; 
+position: relative;
+top:3px; 
+line-height: 95%; 
+text-transform: uppercase;
+} 
+
+qte {
+width: 80%;
+text-align:justify;
+font-size:12px;
+font-family: Italiana;
+display:inline-block;
+padding:12px;
+} 
+
+.rp_valh {
+width: 490px;
+text-align:justify;
+} 
+
+.cred_valh {
+text-align:center;
+font-size:8px;
+font-family:arial;
+font-style:italic;
+line-height:9px;
+}
