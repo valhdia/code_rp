@@ -136,7 +136,7 @@ width: 480px;
 text-align: center;
 font-size:26px; 
 font-family: Italiana;
-border-bottom: 3px solid #98421f;
+border-bottom: 3px solid var(--perso1);
 padding-bottom: 2px;
 text-transform: uppercase; 
 font-weight: 700; 
