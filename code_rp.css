@@ -8,6 +8,10 @@
   --contrast:    	var(--perso1);
 }
 
+.imgan2, .imgan1, .imgan3, h9 {
+  border-color: var(--perso2);
+}
+
   /* --- COULEURS DE ROMEO --- */
 
 [data-color-scheme="light"] romyy {
