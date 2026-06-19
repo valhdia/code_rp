@@ -107,6 +107,10 @@
 
   /* --- BALISES --- */
 
+cit { 
+color: var(--perso1);
+}
+
 bb { 
 color: var(--perso1);
 font-weight: bold;
