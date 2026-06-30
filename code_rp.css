@@ -35,7 +35,7 @@ dji {
   --contrast:    	var(--perso1);
 }
 
-romyy .imgan2, romyy .imgan1, romyy .imgan3, romyy h9, hasnaa .imgan2, hasnaa .imgan1, hasnaa .imgan3, hasnaa h9, kayy .imgan2, kayy .imgan1, kayy .imgan3, kayy h9, enidd .imgan2, enidd .imgan1, enidd .imgan3, enidd h9, vaii .imgan2, vaii .imgan1, vaii .imgan3, vaii h9, prii .imgan2, prii .imgan1, prii .imgan3, prii h9 {
+romyy .imgan2, romyy .imgan1, romyy .imgan3, hasnaa .imgan2, hasnaa .imgan1, hasnaa .imgan3, kayy .imgan2, kayy .imgan1, kayy .imgan3, enidd .imgan2, enidd .imgan1, enidd .imgan3, vaii .imgan2, vaii .imgan1, vaii .imgan3, prii .imgan2, prii .imgan1, prii .imgan3, h9 {
   border-color: var(--perso2);
 }
 
