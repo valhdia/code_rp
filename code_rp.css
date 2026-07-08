@@ -108,15 +108,15 @@ romyy .imgan2, romyy .imgan1, romyy .imgan3, hasnaa .imgan2, hasnaa .imgan1, has
 
 [data-color-scheme="light"] vaii {
    color-scheme: light;
-  --perso1:       #cc92c2;
+  --perso1:       #AA7BC3;
   --perso2:   #6d23b6;
   --perso3:    #944bbb;
 }
 
 [data-color-scheme="dark"] vaii {
    color-scheme: dark;
-  --perso1:       #944bbb;
-  --perso2:   #aa7bc3;
+  --perso1:       #AA7BC3;
+  --perso2:   #944bbb;
   --perso3:    #cc92c2;
 }
 
