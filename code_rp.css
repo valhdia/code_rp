@@ -6,7 +6,7 @@ font-weight: bold;
 }
 
 ow { 
-color: #9DBF9E;
+color: var(--perso1);
 font-style: italic;
 }
 
@@ -42,6 +42,22 @@ dji {
 
 romyy .imgan2, romyy .imgan1, romyy .imgan3, hasnaa .imgan2, hasnaa .imgan1, hasnaa .imgan3, kayy .imgan2, kayy .imgan1, kayy .imgan3, enidd .imgan2, enidd .imgan1, enidd .imgan3, vaii .imgan2, vaii .imgan1, vaii .imgan3, prii .imgan2, prii .imgan1, prii .imgan3, h9 {
   border-color: var(--perso2);
+}
+
+  /* --- COULEURS DE OWAIN --- */
+
+[data-color-scheme="light"] owt {
+   color-scheme: light;
+  --perso1:       #618462;
+  --perso2:   #4A6D4B;
+  --perso3:    #365737;
+}
+
+[data-color-scheme="dark"] owt {
+   color-scheme: dark;
+  --perso1:       #9DBF9E;
+  --perso2:   #B1D2B2;
+  --perso3:    #C7EAC8;
 }
 
   /* --- COULEURS DE ROMEO --- */
