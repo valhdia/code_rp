@@ -76,6 +76,13 @@ color: var(--dia);
 text-transform: uppercase; 
 } 
 
+.soustitre_valh { 
+text-align: center;
+font-size:14px; 
+font-family: Open Sans;
+text-transform: uppercase; 
+} 
+
 qte {
 width: 80%;
 text-align:justify;
