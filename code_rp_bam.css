@@ -56,6 +56,11 @@ color: var(--dia);
 font-weight: bold;
 }
 
+lam { 
+color: #A22626;
+font-weight: bold;
+}
+
 ii {
 color: var(--accent1);
 font-style: italic;} 
