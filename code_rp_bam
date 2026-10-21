@@ -1,0 +1,94 @@
+/* --- COULEURS GÉNÉRALES --- */
+
+{
+  --accent0:	var(--perso1);
+  --accent1:    var(--perso2);
+  --accent2:	var(--perso3);
+  --accent3:    var(--perso4);
+  --accent4:	var(--perso4);
+  --accent5:    var(--perso3);
+}
+
+  /* --- COULEURS DE ESLEM --- */
+
+[data-color-scheme="light"] eslem {
+   color-scheme: light;
+  --perso1:   #828A56;
+  --perso2:   #6A5836;
+  --perso3:   #BBA171;
+  --perso4:   #393E21;
+  --dia:      #6B753E;
+}
+
+[data-color-scheme="dark"] eslem {
+   color-scheme: dark;
+  --perso1:   #575D39;
+  --perso2:   #56472B;
+  --perso3:   #382C15;
+  --perso4:   #6B753E;
+  --dia:      #6B753E;
+}
+
+  /* --- COULEURS DE LAMIA --- */
+
+lamia {
+   color-scheme: light;
+  --perso1:   #711C1C;
+  --perso2:   #AB3244;
+  --perso3:   #85182A;
+  --perso4:   #A22626;
+  --dia:      #A22626;
+}
+
+  /* --- BALISES --- */
+
+cit { 
+color: var(--dia);
+}
+
+bbi { 
+color: var(--accent2);
+font-weight: bold;
+}
+
+dia { 
+color: var(--dia);
+font-weight: bold;
+}
+
+ii {
+color: var(--accent1);
+font-style: italic;} 
+
+ui {
+text-decoration: underline;
+text-decoration-color: var(--accent0);
+text-decoration-thickness: 2px;
+} 
+
+  /* --- ÉLÉMENTS --- */
+
+.titre_valh { 
+text-align: center;
+font-size:36px; 
+font-family: Pirata One;
+color: var(--dia);
+text-transform: uppercase; 
+} 
+
+qte {
+width: 80%;
+text-align:justify;
+font-size:12px;
+font-family: Italiana;
+display:inline-block;
+padding:12px;
+} 
+
+.cred_valh {
+text-align:center;
+font-size:8px;
+font-family:default;
+font-style:italic;
+line-height:9px;
+}
