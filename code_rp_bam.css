@@ -78,7 +78,8 @@ text-transform: uppercase;
 
 .soustitre_valh { 
 text-align: center;
-font-variant: all-small-caps;
+font-size:10px; 
+font-family: Roboto Condensed;
 text-transform: uppercase; 
 } 
 
