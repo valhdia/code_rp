@@ -11,7 +11,7 @@
 
   /* --- COULEURS DE ESLEM --- */
 
-[data-color-scheme="light"] eslem {
+eslem {
    color-scheme: light;
   --perso1:   #828A56;
   --perso2:   #6A5836;
@@ -20,7 +20,7 @@
   --dia:      #6B753E;
 }
 
-[data-color-scheme="dark"] eslem {
+eslem {
    color-scheme: dark;
   --perso1:   #575D39;
   --perso2:   #56472B;
